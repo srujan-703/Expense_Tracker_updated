@@ -1,0 +1,47 @@
+/* Apply these CSS styles to your jumbotron element */
+.jumbotron {
+    width: 900px; /* Adjust the width as needed */
+    height: 628x;
+    align-items: center; /* Adjust the height as needed */
+    margin: 1.25rem auto; 
+    padding: 20px; /* Add padding for content */
+    
+  }
+  .image
+  {
+    margin-top: 5rem;
+  }
+  
+  .card{
+
+    width: 600px; 
+    height: 400px; 
+    margin-left: 2rem;
+  }  
+  
+  .img-form
+  {
+    display: flex;
+  }
+  .form-control
+  {
+    align-items: center;
+    margin-top: 1rem;
+    background-color: rgb(118, 115, 110);
+    
+  }
+  @media (max-width: 768px) {
+    .jumbotron {
+      padding: 7px;
+    }
+    .card
+    {
+        padding: 10px;
+    }
+    .transaction-from
+    {
+        padding : 10px;
+    }
+  }
+
+  
